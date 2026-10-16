@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Découvrez des sélections de produits AliExpress avec des prix indicatifs en dinars algériens.">
+  <title>GZ-Electric/shop — Sélections shopping</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="GZ-Electric/shop, accueil">
+      <span class="brand-mark">GZ</span><span>GZ-Electric<span class="brand-dz">/shop</span></span>
+    </a>
+    <nav><a href="#catalogue">Catalogue</a><a href="#comment-ca-marche">Comment ça marche</a></nav>
+    <div class="header-actions">
+      <div class="language-switch" role="group" aria-label="Choix de langue">
+        <button type="button" class="lang-btn active" data-lang="fr" aria-pressed="true">FR</button>
+        <button type="button" class="lang-btn" data-lang="ar" aria-pressed="false">عربي</button>
+      </div>
+      <a class="header-cta" href="#catalogue" data-i18n="discover">Découvrir <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> <span data-i18n="eyebrow">SÉLECTION SHOPPING POUR L’ALGÉRIE</span></p>
+        <h1><span data-i18n="heroLine1">Les trouvailles du web.</span><br><span data-i18n="heroLine2">Les prix en dinars.</span></h1>
+        <p class="hero-text" data-i18n="heroText">Explore des produits sélectionnés sur AliExpress et consulte une estimation en dinars algériens avant de visiter le vendeur.</p>
+        <a class="primary-btn" href="#catalogue"><span data-i18n="explore">Explorer le catalogue</span> <span>↓</span></a>
+        <p class="small-note" data-i18n="smallNote">Prix indicatifs · Vérifie le prix final sur AliExpress</p>
+      </div>
+      <div class="hero-art" aria-label="Illustration shopping">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-card card-back"><span>✦</span><small>SMART FINDS</small></div>
+        <div class="hero-card card-front"><span class="bag">🛍️</span><strong data-i18n="goodFinds">Bonnes trouvailles</strong><small data-i18n="oneClick">Un clic vers AliExpress</small><div class="mini-price">DA <b>↗</b></div></div>
+        <span class="float-star star-a">✳</span><span class="float-star star-b">✦</span>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span class="trust-icon">دج</span><span><b data-i18n="trustDA">Affichage en DA</b><small data-i18n="trustDASub">Conversion indicative</small></span></div>
+      <div><span class="trust-icon">↗</span><span><b data-i18n="trustLinks">Liens affiliés</b><small data-i18n="trustLinksSub">Vers les fiches vendeurs</small></span></div>
+      <div><span class="trust-icon">◷</span><span><b data-i18n="trustRate">Taux actualisable</b><small data-i18n="trustRateSub">Selon la source configurée</small></span></div>
+    </section>
+
+    <section id="catalogue" class="catalog-section">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-i18n="catalogEyebrow">À DÉCOUVRIR</p><h2 data-i18n="catalogTitle">Le catalogue</h2><p class="muted" data-i18n="catalogSub">Exemples de démonstration — remplace-les par tes produits affiliés.</p></div>
+        <div class="rate-box"><span class="rate-dot"></span><span id="rate-label">Chargement du taux…</span><button id="refresh-rate" class="icon-button" title="Actualiser le taux" aria-label="Actualiser le taux">↻</button></div>
+      </div>
+      <div class="toolbar">
+        <label class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Rechercher un produit…" aria-label="Rechercher un produit" data-i18n-placeholder="searchPlaceholder"></label>
+        <div id="categories" class="category-filters" aria-label="Filtrer par catégorie"></div>
+      </div>
+      <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      <p class="disclaimer" data-i18n="disclaimer">Les produits illustrés et leurs prix sont des exemples. Le prix en DA est une estimation calculée à partir du taux configuré et ne garantit ni le prix final, ni la disponibilité, ni les frais de livraison. Les achats sont effectués sur le site du vendeur.</p>
+    </section>
+
+    <section id="comment-ca-marche" class="how-section">
+      <div><p class="eyebrow" data-i18n="howEyebrow">SIMPLE & TRANSPARENT</p><h2 data-i18n="howTitle">Comment ça marche ?</h2></div>
+      <div class="steps">
+        <article><span>01</span><h3 data-i18n="step1Title">Découvre</h3><p data-i18n="step1Text">Parcours les produits et recherche ce qui t’intéresse.</p></article>
+        <article><span>02</span><h3 data-i18n="step2Title">Compare</h3><p data-i18n="step2Text">Consulte le prix indicatif en dinars et vérifie le prix final.</p></article>
+        <article><span>03</span><h3 data-i18n="step3Title">Visite le vendeur</h3><p data-i18n="step3Text">Le bouton ouvre la fiche AliExpress associée au lien configuré.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="/"><span class="brand-mark">GZ</span><span>GZ-Electric<span class="brand-dz">/shop</span></span></a>
+    <p data-i18n="footerText">Site indépendant de sélection de produits. Non affilié officiellement à AliExpress.</p>
+    <p class="footer-small" data-i18n="footerDisclosure">Certains liens peuvent être des liens d’affiliation : une commission peut être perçue si tu achètes via ces liens, sans coût supplémentaire annoncé pour toi.</p>
+  </footer>
+  <script src="./app.js" defer></script>
+</body>
+</html>
