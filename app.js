@@ -77,14 +77,38 @@ function updateRateLabel() {
 }
 
 const products = [
-  { id: 1, title: "Écouteurs sans fil", category: "Électronique", usd: 12.50, emoji: "🎧", bg: "#e8edff", tag: "Populaire", url: "https://www.aliexpress.com/" },
-  { id: 2, title: "Lampe de bureau LED", category: "Maison", usd: 18.90, emoji: "💡", bg: "#fff0d8", tag: "Maison", url: "https://www.aliexpress.com/" },
-  { id: 3, title: "Support de téléphone", category: "Accessoires", usd: 6.40, emoji: "📱", bg: "#e0f3ec", tag: "Petit prix", url: "https://www.aliexpress.com/" },
-  { id: 4, title: "Sac à dos compact", category: "Mode", usd: 24.75, emoji: "🎒", bg: "#f7e5e5", tag: "À découvrir", url: "https://www.aliexpress.com/" },
-  { id: 5, title: "Clavier sans fil", category: "Électronique", usd: 21.20, emoji: "⌨️", bg: "#e5edf2", tag: "Bureau", url: "https://www.aliexpress.com/" },
-  { id: 6, title: "Organisateur de rangement", category: "Maison", usd: 9.80, emoji: "🧺", bg: "#f5eadb", tag: "Pratique", url: "https://www.aliexpress.com/" },
-  { id: 7, title: "Gourde de sport", category: "Accessoires", usd: 8.25, emoji: "🥤", bg: "#e2f0dc", tag: "Sport", url: "https://www.aliexpress.com/" },
-  { id: 8, title: "Lunettes de soleil", category: "Mode", usd: 11.60, emoji: "🕶️", bg: "#eee6fb", tag: "Style", url: "https://www.aliexpress.com/" }
+  
+const products = [
+  {
+    id: 1,
+    title: "Kit de douilles et cliquet 46 pièces",
+    category: "Outillage",
+    usd: 8.44,
+    emoji: "🧰",
+    bg: "#e8edff",
+    tag: "Petit prix",
+    url: "https://s.click.aliexpress.com/e/_c3bTwgE5"
+  },
+  {
+    id: 2,
+    title: "Kit de clés à cliquet et embouts 46 pièces",
+    category: "Outillage",
+    usd: 10.47,
+    emoji: "🔧",
+    bg: "#e0f3ec",
+    tag: "Pratique",
+    url: "https://s.click.aliexpress.com/e/_c4F6d5jx"
+  },
+  {
+    id: 3,
+    title: "Clé universelle double embout 3–17 mm",
+    category: "Outillage",
+    usd: 5.61,
+    emoji: "🛠️",
+    bg: "#fff0d8",
+    tag: "À découvrir",
+    url: "https://s.click.aliexpress.com/e/_c3d4uE8p"
+  }
 ];
 
 let exchangeRate = null;
