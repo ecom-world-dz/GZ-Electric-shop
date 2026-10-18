@@ -75,8 +75,6 @@ function updateRateLabel() {
   if (exchangeRate === null) label.textContent = t.rateUnavailable;
   else label.textContent = `${rateIsLive ? t.rateVerified : t.rateFallback} : ${exchangeRate.toLocaleString(currentLanguage === "ar" ? "ar-DZ" : "fr-FR")} ${t.rateSource}`;
 }
-
-const products = [
   
 const products = [
   {
