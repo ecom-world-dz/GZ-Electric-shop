@@ -76,36 +76,57 @@ function updateRateLabel() {
   else label.textContent = `${rateIsLive ? t.rateVerified : t.rateFallback} : ${exchangeRate.toLocaleString(currentLanguage === "ar" ? "ar-DZ" : "fr-FR")} ${t.rateSource}`;
 }
   
+
 const products = [
   {
     id: 1,
-    title: "Kit de douilles et cliquet 46 pièces",
+    title: "Kit d'outils mécanique 46 pièces avec douilles et cliquet",
     category: "Outillage",
     usd: 8.44,
     emoji: "🧰",
     bg: "#e8edff",
     tag: "Petit prix",
-    url: "https://s.click.aliexpress.com/e/_c3bTwgE5"
+    url: "https://s.click.aliexpress.com/e/_c3ABXSTj"
   },
   {
     id: 2,
-    title: "Kit de clés à cliquet et embouts 46 pièces",
+    title: "Kit de douilles 46 pièces avec tournevis et embouts",
     category: "Outillage",
     usd: 10.47,
     emoji: "🔧",
     bg: "#e0f3ec",
     tag: "Pratique",
-    url: "https://s.click.aliexpress.com/e/_c4F6d5jx"
+    url: "https://s.click.aliexpress.com/e/_c3V1rmhR"
   },
   {
     id: 3,
-    title: "Clé universelle double embout 3–17 mm",
+    title: "Clé universelle double embout réglable 3–17 mm",
     category: "Outillage",
     usd: 5.61,
     emoji: "🛠️",
     bg: "#fff0d8",
     tag: "À découvrir",
-    url: "https://s.click.aliexpress.com/e/_c3d4uE8p"
+    url: "https://s.click.aliexpress.com/e/_c3QaDUFx"
+  },
+  {
+    id: 4,
+    title: "Multimètre numérique Fluke 15B MAX / 17B MAX",
+    category: "Électricité",
+    usd: 122.48,
+    emoji: "⚡",
+    bg: "#fff0d8",
+    tag: "Mesure électrique",
+    url: "https://s.click.aliexpress.com/e/_c41eAvTF"
+  },
+  {
+    id: 5,
+    title: "Multimètre numérique FLUKE F101 KIT",
+    category: "Électricité",
+    usd: 64.03,
+    emoji: "🔌",
+    bg: "#e0f3ec",
+    tag: "Mesure électrique",
+    url: "https://s.click.aliexpress.com/e/_c33K9B37"
   }
 ];
 
